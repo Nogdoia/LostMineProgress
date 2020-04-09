@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsl(200, 90%, 15%);
+    color: hsl(190, 60%, 65%);
+    width: 75%;
+    margin: 0 auto;
+}
+
+a, a:link, a:hover, a:visited, a:active {
+    color: hsl(190, 60%, 75%);
+}
+
+#all {}
+
+nav {
+    margin-top: 1rem;
+    margin-left: 3rem;
+    margin-bottom: 0;
+}
+
+h1, h2 {
+    margin: 1.5rem 0;
+}
+
+h3 {
+    margin-top: 1.75rem;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+#ukoly p {
+    margin-left: 2rem;
+    margin-top: 0.3rem;
+}
+
+#pribeh p {
+    margin-left: 2rem;
+}
+
+#osoby p {
+    margin-left: 2rem;
+}
+
+h5 {
+    margin: 0.1rem 2rem;
+}
+
+#hrdinove p {
+    margin: 0.1rem 2rem;
+}
+
+img {
+    margin: 0.5rem 2rem;
+}
+
+nav h4 {
+    margin: 0.5rem;
+}
+
+.stav {
+    margin: 0.1rem 2rem;
+    font-size: 0.8rem;
+}
+
+
+.neviditelne {
+    display: none;
+}
