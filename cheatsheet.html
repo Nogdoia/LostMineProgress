@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ztracený důl Fendelveru</title>
+    <link rel='stylesheet' href='./style/styles.css' type='text/css'>
+</head>
+<body>
+    <header>
+        <h1>Nápověda</h1>
+        <nav>
+            <h4><a href=#souboj>Souboj</a></h4>
+            <h4><a href=#kouzla>Kouzla</a></h4>
+            <h4><a href='./index.html'>Zpět na dění v kampani</a></h4>
+        </nav>
+    </header>
+    <br>
+
+    <main>
+        <div id='souboj'>
+            <h2>Souboj</h2>
+            <h3>Na tahu: Pohyb + 1 akce</h3>
+            <h4>Pohyb</h4>
+            <ul>
+                <li>Postava se může přesunout nejdále o tolik polí, jakou má rychlost.</li>
+                <li>Postava si může pohyb rozdělit před akcí a po akci.</li>
+                <li>Postava se nemusí hýbat vůbec.</li>
+                <li>Pokud postava leží, spotřebuje na vstání polovinu svého pohybu.</li>
+                <li>Plazící se postava spotřebuje dvojnásobek rychlosti.</li>
+                <li>Při pohybu v náročném terénu spotřebuje postava dvojnásobek rychlosti.</li>
+                <li>Postava může bez omezení procházet přes pole obsazená přátelskými postavami, ale nesmí zde ukončit tah.</li>
+                <li>Postava může procházet přes pole obsazená nepřátelskými postavami, pokud jsou alespoň o dvě třídy větší nebo menší. Nesmí zde ukončit tah.</li>
+            </ul>
+            <h4>Akce</h4>
+            <ul>
+                <li><strong>Útok</strong> - na blízko, na dálku, zbraní, neozbrojený</li>
+                <li><strong>Seslání kouzla</strong> - je-li útočné, počítá se jako útok</li>
+                <li><strong>Příprava</strong> - stanovení spouštěče a akce</li>
+                <li><strong>Použití předmětu</strong> - např. vypití lektvaru</li>
+                <li><strong>Odpoutání se</strong> - prevence příležitostného útoku při pohybu</li>
+                <li><strong>Uhýbání</strong> - útoky na uhýbající postavu mají nevýhodu</li>
+                <li><strong>Úprk</strong> - další pohyb</li>
+                <li><strong>Schování se</strong> - hod na obratnost proti vnímání nepřátel; nelze pokud postavu nepřátelé přímo vidí</li>
+                <li><strong>Pomoc</strong> - poskytnutí výhody příteli</li>
+                <li><strong>Hledání</strong></li>
+            </ul>
+            <h4>Bonusová akce</h4>
+            <p>Pouze pokud je přesně specifikována a splněny podmínky.</p>
+            <br>
+            <h3>Mimo vlastní tah: Reakce</h3>
+            <p>(maximálně 1 za kolo)</p>
+            <h4>Příležitostný útok</h4>
+            <p>Když postava opouští dosah jiné nepřátelské postavy bez odpoutání se, vyvolává tím na sebe příležitostný útok.</p>
+            <h4>Připravená akce</h4>
+            <p>Nastane-li spouštěč připravené akce, postava se může rozhodnout, zda ji skutečně provede. Připravené, ale neseslané kouzlo stejně spotřebuje před dalším tahem pozici!</p>
+        </div>
+        <br>
+
+        <div id='kouzla'>
+            <h2>Kouzla</h2>
+            <h3>Triky</h3>
+            <p>Triky se nemusí připravovat a nespotřebovávají pozici kouzla.</p>
+            <h4>Boží dohled</h4>
+            <p><strong>Vyvolání:</strong> 1 akce</p>
+            <p><strong>Dosah:</strong> Dotyk</p>
+            <p><strong>Složky:</strong> V, P</p>
+            <p><strong>Trvání:</strong> Soustředění, až 1 minuta</p>
+            <p><strong>Povolání:</strong> Klerik</p>
+            <p>Dotkneš se jednoho tvora, který s tím souhlasí. Než
+                kouzlo skončí, cíl si může jednou hodit k4 a přičíst
+                si hozené číslo k jednomu ověření vlastnosti dle
+                své volby. Touto kostkou si může hodit před hodem
+                na ověření vlastnosti, nebo až po něm. Kouzlo poté
+                skončí.</p>
+            
+            <h4>Divotvorství</h4>
+            <p><strong>Vyvolání:</strong> 1 akce</p>
+            <p><strong>Dosah:</strong> 6 sáhů</p>
+            <p><strong>Složky:</strong> V</p>
+            <p><strong>Trvání:</strong> Až 1 minuta</p>
+            <p><strong>Povolání:</strong> Klerik</p>
+            <p>V rámci dosahu předvedeš drobný zázrak, znamení
+                nadpřirozené moci. Vytvoříš jeden z následujících
+                magických účinků v dosahu:</p>
+            <ul>
+                <li>Na 1 minutu zesílíš svůj hlas až na trojnásobek.</li>
+                <li>Na 1 minutu způsobíš třepotání plamenů, nebo že
+                    se plameny zjasní, utlumí, či změní barvu.</li>
+                <li>Na 1 minutu způsobíš slabé, neškodné otřesy
+                    země.</li>
+                <li>Způsobíš náhlý zvuk, který vyjde z bodu, který
+                    zvolíš v dosahu. Například zahřmění, zakrákání
+                    havrana, nebo zlověstný šepot.</li>
+                <li>Způsobíš, že se odemčené dveře či okno náhle
+                    rozletí dokořán, nebo naopak zabouchne.</li>
+                <li>Na 1 minutu měníš vzhled svých očí.</li>
+            </ul>
+            <p>Sešleš-li toto kouzlo několikrát, můžeš mít aktivní až
+                tři minutové účinky najednou a takový účinek můžeš
+                zrušit jako akci.</p>
+
+            <h4>Kejkle</h4>
+            <p><strong>Vyvolání:</strong> 1 akce</p>
+            <p><strong>Dosah:</strong> 2 sáhy</p>
+            <p><strong>Složky:</strong> V, P</p>
+            <p><strong>Trvání:</strong> Až 1 hodina</p>
+            <p><strong>Povolání:</strong> Kouzelník</p>
+            <p>Toto kouzlo je drobný magický trik, který používají
+                k procvičování adepti sesílání kouzel. V rámci dosahu
+                vytvoříš jeden z následujících účinků.</p>
+            <ul>
+                <li>Vytvoříš okamžitý, neškodný smyslový účinek, například
+                    prskavku, závan větru, slabé hudební tóny
+                    nebo zvláštní vůni.</li>
+                <li>V mžiku zapálíš nebo zhasíš svíčku, pochodeň
+                    nebo malý táborový oheň.</li>
+                <li>V mžiku vyčistíš nebo ušpiníš předmět o objemu
+                    až 1 stopa krychlová.</li>
+                <li>Na 1 hodinu ochladíš nebo ohřeješ neživý materiál
+                    o objemu až 1 stopa krychlová.</li>
+                <li>Na 1 hodinu vytvoříš na předmětu či povrchu barvu,
+                    malou značku nebo symbol.</li>
+                <li>Vytvoříš nemagickou cetku nebo iluzorní obraz,
+                    který se ti vejde do ruky a který vydrží do konce
+                    tvého příštího tahu.</li>
+            </ul>
+            <p>Sešleš-li toto kouzlo několikrát, můžeš mít až tři jeho
+                neokamžité účinky současně, a takový účinek můžeš
+                zrušit jako akci.</p>
+            
+            <h4>Mágova ruka</h4>
+            <p><strong>Vyvolání:</strong> 1 akce</p>
+            <p><strong>Dosah:</strong> 6 sáhů</p>
+            <p><strong>Složky:</strong> V, P</p>
+            <p><strong>Trvání:</strong> Až 1 minuta</p>
+            <p><strong>Povolání:</strong> Kouzelník</p>
+            <p>Přízračná, levitující ruka se objeví v bodě, který
+                zvolíš v dosahu. Vydrží po dobu trvání, nebo dokud ji
+                nezrušíš jako akci. Octne-li se dál než 6 sáhů od tebe,
+                nebo sešleš-li toto kouzlo znovu, tak zmizí.
+                Ruku můžeš ovládat použitím své akce. Můžeš ji
+                použít k manipulaci s předmětem, otevření odemčených
+                dveří či nádoby, vytažení či uložení předmětu
+                z či do otevřené nádoby, nebo vylití obsahu flakónku.
+                Pokaždé, když ruku použiješ, tak s ní také můžeš
+                pohnout až o 6 sáhů.
+                Ruka nemůže útočit ani aktivovat kouzelné předměty
+                a neunese víc než 10 liber.</p>
+
+            <h4>Mrazivý paprsek</h4>
+            <p><strong>Vyvolání:</strong> 1 akce</p>
+            <p><strong>Dosah:</strong> 12 sáhů</p>
+            <p><strong>Složky:</strong> V, P</p>
+            <p><strong>Trvání:</strong> Ihned</p>
+            <p><strong>Povolání:</strong> Kouzelník</p>
+            <p>Směrem k tvorovi v dosahu vyšlehne chladný paprsek
+                modrobílého světla. Hoď si na útok na dálku kouzlem
+                proti cíli. Při zásahu cíl utrpí chladné zranění 1k8
+                a jeho rychlost se sníží o 2 sáhy do začátku tvého
+                příštího tahu.
+                Zranění tohoto kouzla se zvýší o 1k8, když dosáhneš
+                5. úrovně (2k8), 11. úrovně (3k8) a 17. úrovně
+                (4k8).</p>
+            
+            <h4>Odolání</h4>
+            <p><strong>Vyvolání:</strong> 1 akce</p>
+            <p><strong>Dosah:</strong> Dotyk</p>
+            <p><strong>Složky:</strong> V, P, S (miniaturní plášť)</p>
+            <p><strong>Trvání:</strong> Soustředění, až 1 minuta</p>
+            <p><strong>Povolání:</strong> Klerik</p>
+            <p>Dotkneš se jednoho tvora, který s tím souhlasí. Než
+                kouzlo skončí, cíl si může hodit k4 a přičíst si hozené
+                číslo k jednomu záchrannému hodu dle své volby.
+                Touto kostkou si může hodit před záchranným hodem,
+                nebo až po něm. Kouzlo poté skončí.</p>
+            
+            <h4>Posvátný plamen</h4>
+            <p><strong>Vyvolání:</strong> 1 akce</p>
+            <p><strong>Dosah:</strong> 12 sáhů</p>
+            <p><strong>Složky:</strong> V, P</p>
+            <p><strong>Trvání:</strong> Ihned</p>
+            <p><strong>Povolání:</strong> Klerik</p>
+            <p>Záření podobné plameni sestoupí na tvora, kterého
+                vidíš v dosahu. Cíl musí uspět v záchranném hodu
+                na Obratnost, jinak utrpí zářivé zranění 1k8. Tvor
+                nemá žádný prospěch z krytu pro tento záchranný
+                hod.
+                Zranění tohoto kouzla se zvýší o 1k8, když dosáhneš
+                5. úrovně (2k8), 11. úrovně (3k8) a 17.
+                úrovně (4k8).</p>
+
+            <h4>Světlo</h4>
+            <p><strong>Vyvolání:</strong> 1 akce</p>
+            <p><strong>Dosah:</strong> Dotyk</p>
+            <p><strong>Složky:</strong> V, S (světluška nebo světélkující mech)</p>
+            <p><strong>Trvání:</strong> 1 hodina</p>
+            <p><strong>Povolání:</strong> Klerik, kouzelník</p>
+            <p>Dotkneš se jednoho předmětu, který v žádném rozměru
+                není větší než 2 sáhy. Dokud kouzlo neskončí,
+                předmět osvítí jasným světlem okruh o poloměru 4
+                sáhy a dalších 4 sáhy dosvítí slabým světlem. Světlo
+                může být zbarvené, jak chceš. Úplné zakrytí daného
+                předmětu něčím neprůsvitným blokuje světlo. Kouzlo
+                skončí předčasně, pokud ho sešleš znovu, nebo ho
+                ukončíš jako akci.
+                Pokud zacílíš předmět, který drží nebo má na sobě
+                nepřátelský tvor, tak tvor musí uspět v záchranném
+                hodu na Obratnost, aby se vyhnul kouzlu.</p>
+
+            <h4>Šokující sevření</h4>
+            <p><strong>Vyvolání:</strong> 1 akce</p>
+            <p><strong>Dosah:</strong> Dotyk</p>
+            <p><strong>Složky:</strong> V, P</p>
+            <p><strong>Trvání:</strong> Ihned</p>
+            <p><strong>Povolání:</strong> Kouzelník</p>
+            <p>Ze tvé ruky vyšlehne blesk, aby způsobil šok tvorovi,
+                kterého se pokusíš dotknout. Hoď si na útok na blízko
+                kouzlem proti cíli. Pokud má cíl na sobě kovovou
+                zbroj, máš výhodu k hodu na útok. Při zásahu cíl
+                utrpí bleskové zranění 1k8 a nemůže reagovat do
+                začátku svého příštího tahu.
+                Zranění tohoto kouzla se zvýší o 1k8, když dosáhneš
+                5. úrovně (2k8), 11. úrovně (3k8) a 17. úrovně
+                (4k8).</p>
+
+            <h4>Tančící světla</h4>
+            <p><strong>Vyvolání:</strong> 1 akce</p>
+            <p><strong>Dosah:</strong> 24 sáhů</p>
+            <p><strong>Složky:</strong> V, P, S (trocha fosforu nebo kousek světélkujícího dřeva nebo světluška)</p>
+            <p><strong>Trvání:</strong> Soustředění, až 1 minuta</p>
+            <p><strong>Povolání:</strong> Kouzelník</p>
+            <p>V dosahu vytvoříš až čtyři světla o velikosti pochodně,
+                která vypadají jako pochodně, lucerny nebo svítící
+                koule, jež se vznáší ve vzduchu po dobu trvání. Můžeš
+                také zkombinovat čtyři světla do jednoho svítícího,
+                neurčitého humanoidního těla Střední velikosti.
+                Ať zvolíš jakoukoliv formu, každé světlo slabě osvítí
+                okruh o poloměru 2 sáhy.
+                Jako bonusovou akci můžeš ve svém tahu pohnout
+                světly až o 12 sáhů na nové místo v rámci dosahu.
+                Světlo musí být do 4 sáhy od jiného světla stvořeného
+                tímto kouzlem a pokud se nějaké světlo vzdálí mimo
+                dosah kouzla, se zablikáním zhasne.</p>
+            <br>
+
+            <h3>Kouzla 1. úrovně</h3>
+            <h4>Azyl</h4>
+            <p><strong>Vyvolání:</strong> 1 bonusová akce</p>
+            <p><strong>Dosah:</strong> 6 sáhů</p>
+            <p><strong>Složky:</strong> V, P, S (stříbrné zrcátko)</p>
+            <p><strong>Trvání:</strong> 1 minuta</p>
+            <p><strong>Povolání:</strong> Klerik</p>
+            <p>Strážíš před útokem tvora v dosahu. Dokud kouzlo
+                neskončí, tak každý, kdo zacílí stráženého tvora útokem
+                nebo zraňujícím kouzlem, si musí nejprve hodit
+                záchranný hod na Moudrost. Když neuspěje, musí
+                vybrat nový cíl, jinak přijde o svůj útok nebo kouzlo.
+                Toto kouzlo nechrání stráženého tvora před plošnými
+                účinky, například výbuchem ohnivé koule.
+                Pokud strážený tvor zaútočí nebo sešle kouzlo,
+                které působí na nepřátelského tvora, toto kouzlo
+                skončí.</p>
+
+            <h4>Hořící ruce</h4>
+            <p><strong>Vyvolání:</strong> 1 akce</p>
+            <p><strong>Dosah:</strong> Ty sám (kužel 3 sáhy)</p>
+            <p><strong>Složky:</strong> V, P</p>
+            <p><strong>Trvání:</strong> Ihned</p>
+            <p><strong>Povolání:</strong> Kouzelník</p>
+            <p>Když podržíš ruce tak, že se palce vzájemně dotýkají
+                a ostatní prsty máš roztažené od sebe, z konečků roztažených
+                prstů ti vystřelí tenký pás plamenů. Každý
+                tvor v kuželu 3 sáhy si musí hodit záchranný hod na
+                Obratnost. Když tvor neuspěje, utrpí ohnivé zranění
+                3k6, nebo poloviční zranění při úspěšném záchranném
+                hodu.
+                Oheň zapaluje v oblasti hořlavé předměty, které
+                nikdo nedrží ani nenese.</p>
+            <p>Na vyšších úrovních: Sešleš-li toto kouzlo použitím
+                pozice kouzla 2. či vyšší úrovně, za každou další
+                úroveň pozice nad 1. se zvýší zranění o 1k6.</p>
+
+            <h4>Hromová vlna</h4>
+            <p><strong>Vyvolání:</strong> 1 akce</p>
+            <p><strong>Dosah:</strong> Ty sám (krychle 3 sáhy)</p>
+            <p><strong>Složky:</strong> V, P</p>
+            <p><strong>Trvání:</strong> Ihned</p>
+            <p><strong>Povolání:</strong> Kouzelník</p>
+            <p>Vyjde z tebe vlna hromové síly. Každý tvor v krychli 3
+                sáhy vycházející z tebe si musí hodit záchranný hod
+                na Odolnost. Když tvor neuspěje, utrpí hromové zranění
+                2k8 a je odtlačen 2 sáhy od tebe. Když uspěje,
+                utrpí poloviční zranění a není odtlačen.
+                Mimo to, nezajištěné předměty, které jsou celé
+                v oblasti účinku, jsou účinkem kouzla automaticky
+                odtlačeny 2 sáhy od tebe a kouzlo hromově zaduní,
+                což lze slyšet až 60 sáhů od tebe.</p>
+            <p>Na vyšších úrovních: Sešleš-li toto kouzlo použitím
+                pozice kouzla 2. či vyšší úrovně, za každou další
+                úroveň pozice nad 1. se zvýší zranění o 1k8.</p>
+
+            <h4>Léčivé slovo</h4>
+            <p><strong>Vyvolání:</strong> 1 bonusová akce</p>
+            <p><strong>Dosah:</strong> 12 sáhů</p>
+            <p><strong>Složky:</strong> V</p>
+            <p><strong>Trvání:</strong> Ihned</p>
+            <p><strong>Povolání:</strong> Klerik</p>
+            <p>Tvor dle tvé volby, kterého vidíš v dosahu, si obnoví
+                životy rovné 1k4 + tvá oprava sesílací vlastnosti. Toto
+                kouzlo nijak nepůsobí na nemrtvé ani výtvory.</p>
+            <p>Na vyšších úrovních: Sešleš-li toto kouzlo použitím
+                pozice kouzla 2. či vyšší úrovně, za každou další
+                úroveň pozice nad 1. se zvýší léčení o 1k4.</p>
+
+            <h4>Magická střela</h4>
+            <p><strong>Vyvolání:</strong> 1 akce</p>
+            <p><strong>Dosah:</strong> 24 sáhů</p>
+            <p><strong>Složky:</strong> V, P</p>
+            <p><strong>Trvání:</strong> Ihned</p>
+            <p><strong>Povolání:</strong> Kouzelník</p>
+            <p>Vytvoříš tři světélkující šipky tvořené magickou silou.
+                Každá šipka zasáhne tvora dle tvé volby, kterého
+                vidíš v dosahu. Šipka způsobí cíli silové zranění 1k4
+                + 1. Šipky udeří všechny společně a můžeš je nasměrovat
+                na jeden nebo více cílů.</p>
+            <p>Na vyšších úrovních: Sešleš-li toto kouzlo použitím
+                pozice kouzla 2. či vyšší úrovně, za každou další
+                úroveň pozice nad 1. vytvoří kouzlo o jednu šipku víc.</p>
+
+            <h4>Mágova zbroj</h4>
+            <p><strong>Vyvolání:</strong> 1 akce</p>
+            <p><strong>Dosah:</strong> Dotyk</p>
+            <p><strong>Složky:</strong> V, P, S (kus tvrzené kůže)</p>
+            <p><strong>Trvání:</strong> 8 hodin</p>
+            <p><strong>Povolání:</strong> Kouzelník</p>
+            <p>Dotkneš se tvora, který s tím souhlasí a který na
+                sobě nemá žádnou zbroj, a obklopí ho ochranná
+                magie, dokud kouzlo neskončí. Základní OČ cíle se
+                změní na 13 + jeho oprava Obratnosti. Kouzlo skončí
+                předčasně, pokud si cíl navlékne zbroj, nebo pokud
+                kouzlo zrušíš jako akci.</p>
+
+            <h4>Najdi magii</h4>
+            <p><strong>Vyvolání:</strong> 1 akce (rituál)</p>
+            <p><strong>Dosah:</strong> Ty sám</p>
+            <p><strong>Složky:</strong> V, P</p>
+            <p><strong>Trvání:</strong> Soustředění, až 10 minut</p>
+            <p><strong>Povolání:</strong> Klerik, kouzelník</p>
+            <p>Po dobu trvání vnímáš přítomnost magie do 6 sáhů
+                od sebe. Pokud vycítíš magii tímto způsobem, můžeš
+                pomocí své akce spatřit slabou auru kolem jakéhokoliv
+                viditelného tvora nebo předmětu v oblasti, který
+                má v sobě magii, a zjistíš jeho školu magie, pokud do
+                nějaké patří.
+                Kouzlo pronikne skrz většinu překážek, ale neprojde
+                1 stopou kamene, 1 coulem běžného kovu, tenkou
+                vrstvou olova nebo 3 stopami dřeva či hlíny.</p>
+            
+            <h4>Naváděcí blesk</h4>
+            <p><strong>Vyvolání:</strong> 1 akce</p>
+            <p><strong>Dosah:</strong> 24 sáhů</p>
+            <p><strong>Složky:</strong> V, P</p>
+            <p><strong>Trvání:</strong> 1 kolo</p>
+            <p><strong>Povolání:</strong> Klerik</p>
+            <p>Na tvora dle tvé volby v dosahu vystřelí záblesk světla.
+                Hoď si na útok na dálku kouzlem proti cíli. Při zásahu
+                cíl utrpí zářivé zranění 4k6 a příští hod na útok
+                proti tomuto cíli, před koncem tvého příštího tahu,
+                má výhodu, díky mystickému slabému jasu, jakým se
+                do té doby cíl třpytí.</p>
+            <p>Na vyšších úrovních: Sešleš-li toto kouzlo použitím
+                pozice kouzla 2. či vyšší úrovně, za každou další
+                úroveň pozice nad 1. se zvýší zranění o 1k6.</p>
+
+            <h4>Porozumění jazykům</h4>
+            <p><strong>Vyvolání:</strong> 1 akce (rituál)</p>
+            <p><strong>Dosah:</strong> Ty sám</p>
+            <p><strong>Složky:</strong> V, P, S (trocha sazí a soli)</p>
+            <p><strong>Trvání:</strong> 1 hodina</p>
+            <p><strong>Povolání:</strong> Kouzelník</p>
+            <p>Po dobu trvání rozumíš doslovnému významu
+                mluveného jazyka, který slyšíš. Porozumíš
+                také psanému jazyku, který vidíš, ale musíš se
+                dotýkat povrchu, na kterém jsou slova napsaná.
+                Během 1 minuty přečteš jednu stranu
+                textu.
+                Toto kouzlo nerozšifruje tajné textové zprávy
+                ani znak, například magickou runu, který není
+                součástí psaného jazyka.</p>
+
+            <h4>Požehnání</h4>
+            <p><strong>Vyvolání:</strong> 1 akce</p>
+            <p><strong>Dosah:</strong> 6 sáhů</p>
+            <p><strong>Složky:</strong> V, P, S (kropenka svěcené vody)</p>
+            <p><strong>Trvání:</strong> Soustředění, až 1 minuta</p>
+            <p><strong>Povolání:</strong> Klerik</p>
+            <p>Požehnáš až třem tvorům dle své volby v rámci dosahu.
+                Kdykoliv si cíl hodí na útok nebo záchranný hod,
+                než kouzlo skončí, může si hodit k4 a hozené číslo si
+                přičíst k danému hodu na útok nebo záchrannému
+                hodu.</p>
+            <p>Na vyšších úrovních: Sešleš-li toto kouzlo použitím
+                pozice kouzla 2. či vyšší úrovně, za každou
+                další úroveň pozice nad 1. můžeš zacílit jednoho
+                tvora navíc.</p>
+
+            <h4>Rozkaz</h4>
+            <p><strong>Vyvolání:</strong> 1 akce</p>
+            <p><strong>Dosah:</strong> 12 sáhů</p>
+            <p><strong>Složky:</strong> V</p>
+            <p><strong>Trvání:</strong> 1 kolo</p>
+            <p><strong>Povolání:</strong> Klerik</p>
+            <p>Tvorovi, kterého vidíš v dosahu, zadáš jednoslovný
+                rozkaz. Cíl musí uspět v záchranném hodu na
+                Moudrost, jinak ve svém příštím tahu musí splnit
+                tvůj rozkaz. Toto kouzlo nemá žádný účinek, je-li cíl
+                nemrtvý či nerozumí tvému jazyku, nebo pokud by ho
+                tvůj příkaz přímým způsobem zranil.
+                Následuje několik typických rozkazů a jejich
+                účinků. Můžeš vydat i jiný rozkaz než zde popsaný.
+                Uděláš-li to, PJ určí, jak se bude cíl chovat. Je-li cíli
+                bráněno ve vykonání rozkazu, kouzlo skončí.</p>
+            <p>K zemi: Cíl si lehne a pak skončí svůj tah.
+                Přistup: Cíl se pohne směrem k tobě co nejkratší
+                a nejpřímější cestou, a když se přiblíží do 1 sáhu od
+                tebe, skončí svůj tah.
+                Pusť: Cíl pustí vše, co drží a pak skončí svůj tah.
+                Stůj: Cíl se nepohne a neprovede žádnou akci. Létající
+                tvor zůstane ve vzduchu, pokud může. Pokud se
+                musí pohnout, aby zůstal ve vzduchu, uletí jen minimální
+                nutnou vzdálenost pro udržení se ve vzduchu.
+                Uteč: Cíl stráví svůj tah pohybem od tebe co nejrychlejším
+                možným způsobem.</p>
+            <p>Na vyšších úrovních: Sešleš-li toto kouzlo použitím
+                pozice kouzla 2. či vyšší úrovně, za každou další
+                úroveň pozice nad 1. můžeš ovlivnit jednoho tvora
+                navíc. Tvorové musí být navzájem do 6 sáhů od sebe,
+                když na ně cílíš.</p>
+
+            <h4>Spánek</h4>
+            <p><strong>Vyvolání:</strong> 1 akce</p>
+            <p><strong>Dosah:</strong> 18 sáhů</p>
+            <p><strong>Složky:</strong> V, P, S (špetka jemného písku, okvětní lístky
+                růže, nebo cvrček)</p>
+            <p><strong>Trvání:</strong> 1 minuta</p>
+            <p><strong>Povolání:</strong> Kouzelník</p>
+            <p>Toto kouzlo pošle tvory do magické dřímoty. Hoď
+                5k8; výsledek udává, kolik životů tvorů může toto
+                kouzlo ovlivnit. Tvorové do 4 sáhy od bodu, který
+                zvolíš v dosahu, jsou ovlivněni ve vzestupném pořadí
+                dle jejich aktuálních životů (tvorové v bezvědomí se
+                ignorují).
+                4. kapitola: Sesílání kouzel
+                43
+                Kouzlo začne působit od tvora, který má nejmenší
+                aktuální počet životů, a každý tvor zasažený tímto
+                kouzlem upadne do bezvědomí, dokud kouzlo neskončí,
+                nebo dokud spáč neutrpí zranění, nebo dokud
+                někdo nepoužije akci, aby s ním zatřásl, nebo ho
+                propleskal. Za každého tvora uber jeho počet životů
+                z celku a pak přejdi na tvora s dalším nejmenším
+                počtem životů. Počet životů tvora musí být nižší nebo
+                roven zbývajícímu celku, aby na něj kouzlo působilo.
+                Toto kouzlo nijak nepůsobí na nemrtvé ani tvory,
+                kteří jsou imunní vůči zmámení.</p>
+            <p>Na vyšších úrovních: Sešleš-li toto kouzlo použitím
+                pozice kouzla 2. či vyšší úrovně, za každou další
+                úroveň pozice nad 1. si hoď 2k8 navíc.</p>
+
+            <h4>Štít</h4>
+            <p><strong>Vyvolání:</strong> 1 reakce, kterou provedeš, když tě zasáhne
+                útok, nebo když jsi zacílen kouzlem magická střela</p>
+            <p><strong>Dosah:</strong> Ty sám</p>
+            <p><strong>Složky:</strong> V, P</p>
+            <p><strong>Trvání:</strong> 1 kolo</p>
+            <p><strong>Povolání:</strong> Kouzelník</p>
+            <p>Objeví se neviditelná bariéra magické síly, aby tě
+                ochránila. Až do začátku svého příštího tahu máš
+                bonus +5 k OČ, a to i proti spouštěcímu útoku, a magická
+                střela ti nezpůsobí žádné zranění.</p>
+
+            <h4>Štít víry</h4>
+            <p><strong>Vyvolání:</strong> 1 bonusová akce</p>
+            <p><strong>Dosah:</strong> 12 sáhů</p>
+            <p><strong>Složky:</strong> V, P, S (malý pergamen, na kterém je napsaný
+                kus svatého textu)</p>
+            <p><strong>Trvání:</strong> Soustředění, až 10 minut</p>
+            <p><strong>Povolání:</strong> Klerik</p>
+            <p>Kolem tvora, kterého zvolíš v dosahu, se objeví třpytivé
+                ochranné pole a poskytne mu bonus +2 k OČ po
+                dobu trvání.</p>
+
+            <h4>Určení</h4>
+            <p><strong>Vyvolání:</strong> 1 minuta (rituál)</p>
+            <p><strong>Dosah:</strong> Dotyk</p>
+            <p><strong>Složky:</strong> V, P, S (perla v hodnotě aspoň 100 zl a soví pero)</p>
+            <p><strong>Trvání:</strong> Ihned</p>
+            <p><strong>Povolání:</strong> Kouzelník</p>
+            <p>Zvol jeden předmět, kterého se musíš dotýkat během
+                vyvolávání kouzla. Je-li to kouzelný předmět nebo
+                jiný magií prodchnutý předmět, zjistíš jeho vlastnosti
+                a jak je používat, jestli předmět vyžaduje pro použití
+                sladění a kolik má dávek, má-li nějaké. Zjistíš, jestli
+                předmět ovlivňují nějaká kouzla a co jsou zač. Pokud
+                předmět vytvořilo nějaké kouzlo, dozvíš se, jaké kouzlo
+                ho vytvořilo.
+                Pokud se místo toho dotýkáš během sesílání tvora,
+                zjistíš, jaká kouzla na něj právě působí, jsou-li taková.</p>
+
+            <h4>Zhoj zranění</h4>
+            <p><strong>Vyvolání:</strong> 1 akce</p>
+            <p><strong>Dosah:</strong> Dotyk</p>
+            <p><strong>Složky:</strong> V, P</p>
+            <p><strong>Trvání:</strong> Ihned</p>
+            <p><strong>Povolání:</strong> Klerik</p>
+            <p>Tvor, kterého se dotkneš, si obnoví počet životů rovných
+                1k8 + tvá oprava sesílací vlastnosti. Toto kouzlo
+                nijak nepůsobí na nemrtvé ani výtvory.</p>
+            <p>Na vyšších úrovních: Sešleš-li toto kouzlo použitím
+                pozice kouzla 2. či vyšší úrovně, za každou další
+                úroveň pozice nad 1. se zvýší léčení o 1k8.</p>
+
+            <h4>Zmam osobu</h4>
+            <p><strong>Vyvolání:</strong> 1 akce</p>
+            <p><strong>Dosah:</strong> 6 sáhů</p>
+            <p><strong>Složky:</strong> V, P</p>
+            <p><strong>Trvání:</strong> 1 hodina</p>
+            <p><strong>Povolání:</strong> Kouzelník</p>
+            <p>Pokusíš se zmámit humanoida, kterého zvolíš v dosahu.
+                Musí si hodit záchranný hod na Moudrost, a pokud
+                s ním ty nebo tví společníci bojují, má k němu
+                výhodu. Neuspěje-li v záchranném hodu, zmámíš ho,
+                dokud kouzlo neskončí, nebo dokud mu ty nebo tví
+                společníci neublížíte. Zmámený tvor na tebe pohlíží
+                jako na dobrého známého.</p>
+            <p>Na vyšších úrovních: Sešleš-li toto kouzlo použitím
+                pozice kouzla 2. či vyšší úrovně, za každou další
+                úroveň pozice nad 1. můžeš ovlivnit jednoho tvora
+                navíc. Tvorové musí být navzájem do 6 sáhů od sebe,
+                když na ně cílíš.</p>
+
+            <h4>Způsob zranění</h4>
+            <p><strong>Vyvolání:</strong> 1 akce</p>
+            <p><strong>Dosah:</strong> Dotyk</p>
+            <p><strong>Složky:</strong> V, P</p>
+            <p><strong>Trvání:</strong> Ihned</p>
+            <p><strong>Povolání:</strong> Klerik</p>
+            <p>Hoď si na útok na blízko kouzlem proti tvorovi,
+                kterého se můžeš dotknout. Když zasáhneš, cíl utrpí
+                nekrotické zranění 3k10.</p>
+            <p>Na vyšších úrovních: Sešleš-li toto kouzlo použitím
+                pozice kouzla 2. či vyšší úrovně, za každou další
+                úroveň pozice nad 1. se zvýší zranění o 1k10.</p>
+            <br>
+
+            <h3>Kouzla 2. úrovně</h3>
+            <h4>Název</h4>
+            <p><strong>Vyvolání:</strong> </p>
+            <p><strong>Dosah:</strong> </p>
+            <p><strong>Složky:</strong> </p>
+            <p><strong>Trvání:</strong> </p>
+            <p><strong>Povolání:</strong> </p>
+            <p></p>
+            <p></p>
+        </div>
+        <br>
+    </main>
+</body>

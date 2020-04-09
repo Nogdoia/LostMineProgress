@@ -7,7 +7,9 @@ body {
 }
 
 a, a:link, a:hover, a:visited, a:active {
-    color: hsl(190, 60%, 75%);
+    color: hsl(190, 30%, 75%);
+    font-style: italic;
+    text-decoration: none;
 }
 
 #all {}
@@ -26,6 +28,7 @@ h3 {
     margin-top: 1.75rem;
     margin-left: 0;
     margin-bottom: 0;
+    text-decoration: underline;
 }
 
 #ukoly p {
@@ -62,6 +65,19 @@ nav h4 {
     font-size: 0.8rem;
 }
 
+#kouzla ul {
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    margin-left: 0.6rem;
+}
+
+li {
+    font-size: 1.05rem;
+}
+
+#souboj p, #kouzla p {
+    margin: 0.2rem 2rem;
+}
 
 .neviditelne {
     display: none;
