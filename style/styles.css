@@ -60,9 +60,28 @@ nav h4 {
     margin: 0.5rem;
 }
 
-.stav {
+.stavHotovo {
     margin: 0.1rem 2rem;
     font-size: 0.8rem;
+    color: hsl(220, 60%, 60%);
+}
+
+.stavBezi {
+    margin: 0.1rem 2rem;
+    font-size: 0.8rem;
+    color: hsl(130, 50%, 55%)
+}
+
+.stavNabidnuto {
+    margin: 0.1rem 2rem;
+    font-size: 0.8rem;
+    color: hsl(50, 80%, 45%)
+}
+
+.stavOvereni {
+    margin: 0.1rem 2rem;
+    font-size: 0.8rem;
+    color: hsl(300, 60%, 65%);
 }
 
 #kouzla ul {
