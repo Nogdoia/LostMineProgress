@@ -9,24 +9,30 @@
 <body>
     <div id='all'>
         <header>
-            <h1>Ztracený důl Fendelveru</h1>
+            <h1 id='top'>Ztracený důl Fendelveru</h1>
+            <h6>
+                Shrnutí postupu hrdinů
+            </h6>
             <nav>
                 <h4><a href=#hrdinove>Hrdinové</a></h4>
                 <h4><a href=#pribeh>Příběh</a></h4>
                 <h4><a href=#ukoly>Úkoly</a></h4>
                 <h4><a href=#osoby>Ostatní postavy</a></h4>
-                <h4><a href='./cheatsheet.html'>Obecná nápověda</a></h4>
+                <h4><a href='./cheatsheet.html'>Obecná nápověda k soubojům</a></h4>
             </nav>
         </header>
+        <br>
         <br>
 
         <main>
             <div id='hrdinove'>
-                <h2>Hrdinové</h2>
+                <div class='goTop'>
+                    <a href=#top>↑↑</a>
+                    <h2>Hrdinové</h2>
+                </div>
                 <div id='Malcer'>
                     <h3>Malcer Hrompole</h3>
                     <h5>Člověk, bojovník, 2. úroveň</h5>
-                    <img src='./img/Malcer_Hrompole.jpg' width=150 alt='Malcer Hrompole'>
                     <p>Pasivní vnímání: <strong>13</strong></p>
                     <p>Brnčo: <strong>14</strong></p>
                     <p>Max. životů: <strong>22</strong></p>
@@ -37,7 +43,6 @@
                 <div id='Bree'>
                     <h3>Bree</h3>
                     <h5>Půlčík, tulák, 2. úroveň</h5>
-                    <img src='./img/Bree.jpg' width=150 alt='Bree'>
                     <p>Pasivní vnímání: <strong>10</strong></p>
                     <p>Brnčo: <strong>14</strong></p>
                     <p>Max. životů: <strong>14</strong></p>
@@ -48,7 +53,6 @@
                 <div id='Rurik'>
                     <h3>Rurik Skálohled</h3>
                     <h5>Trpaslík, klerik, 2. úroveň</h5>
-                    <img src='./img/Rurik_Skalohled.jpg' width=150 alt='Rurik Skalohled'>
                     <p>Pasivní vnímání: <strong>13</strong></p>
                     <p>Brnčo: <strong>18</strong></p>
                     <p>Max. životů: <strong>21</strong></p>
@@ -60,7 +64,6 @@
                 <div id='Aksana'>
                     <h3>Aksana z Oxenu</h3>
                     <h5>Člověk, bojovník, 2. úroveň</h5>
-                    <img src='./img/Aksana_z_Oxenu.png' width=150 alt='Aksana z Oxenu'>
                     <p>Pasivní vnímání: <strong>13</strong></p>
                     <p>Brnčo: <strong>17</strong></p>
                     <p>Max. životů: <strong>21</strong></p>
@@ -71,7 +74,6 @@
                 <div id='Navaria'>
                     <h3>Navaria</h3>
                     <h5>Elf, kouzelník, 2. úroveň</h5>
-                    <img src='./img/Navaria.png' width=150 alt='Navaria'>
                     <p>Pasivní vnímání: <strong>13</strong></p>
                     <p>Brnčo: <strong>12</strong></p>
                     <p>Max. životů: <strong>15</strong></p>
@@ -83,57 +85,66 @@
                 <br>
             </div>
             <br>
+            <br>
 
             <div id='pribeh'>
-                <h2>Příběh</h2>
-                    <h4>Úvod</h4>
-                    <p>
-                        Hrdinové se nacházeli v Letohradu, když přijali <a href=#dorucitZasoby>úkol</a> od <a href=#GundrenSkalohled>Gundrena Skálohleda</a>.
-                        Některé Gundren oslovil přímo, protože jsou staří známí, jiní se o možnosti přivýdělku dozvěděli z inzerátu.
-                        Gundren potřebuje ozbrojenou eskortu pro převoz vozu se zásobami do městečka Fendelinu v podhůří Mečových hor.
-                    </p>
-                    <p>
-                        Hrdinové a Gundren vyrazili hned ráno na cestu ještě ve společnosti Gundrenova přítele <a href=#SildarZimosal>Sildara Zimosála</a>.
-                        Vůz se zásobami tažený párem volů se pomalu posunoval na jih a na Gundrenovi bylo vidět rostoucí napětí.
-                        Vysvětlil hrdinům, že poblíž Fendelinu učinil ohromný objev, musí ale jednat rychle.
-                        V pozdním odpoledni už Gundren nemohl déle snášet šouravý postup vozu. Rozhodl, že hrdinové zůstanou s vozem a on vyrazí se Sildarem napřed.
-                        Dokud hrdinové s vozem nedojedou do Fendelinu, bude se věnovat záležitostem, které může řešit bez zásob ve voze.
-                        Se Sildarem pobídli své koně a brzy získali na hrdiny s vozem velký náskok a ztratili se jim z dohledu.
-                    </p>
-                    <p>
-                        Hrdinové pokračovali na jih takovým tempem, jakým zvládli voli naložený vůz táhnout. Vše zatím probíhalo v klidu, bez nepříjemností.
-                        Nocovali podél cesty a třetího dne dopoledne odbočili z dobře udržované, frekventované silnice na trochu horší Trojkaneckou stezku vedoucí k východu.
-                        Z obou stran kolem stezky roste les a husté houští a stezka je mnohem opuštěnější než předešlá silnice.
-                    </p>
-                    <h4>Co bylo dál?</h4>
-                    <p>
-                        Kolem poledne projeli hrdinové zatáčkou a za zákrutou spatřili dvě koňské mrtvoly. Krátký průzkum odhalil, že koně patřili Gundrenovi a Sildarovi.
-                        Z houští náhle na hrdiny vyrazila tlupa goblinů. Zřejmě doufali ve snadnou kořist, hrdinové si s nimi ale rychle poradili.
-                        Navíc objevili stezku vedoucí ke goblinímu doupěti, po které okamžitě vyrazil <a href=#Rurik>Rurik</a> s velkými obavami o život svého bratrance Gundrena.
-                        Zbytek hrdinů ho následoval a všichni se úspěšně vyhli nastraženým pastem.
-                    </p>
-                    <p>
-                        Po hladké likvidaci stráží a hlídacích vlků u vchodu do doupěte, se hrdinové pokusili vyjednávat s Yeemikem, 
-                        zřejmě jakýmsi nadřízeným goblinů. Yeemik přiznal, že přechovává zajatého Sildara, a nabídl ho výměnou za hlavu Klarga, sídlícího v jiné části jeskyně.
-                        Vyjednávání skončilo ve chvíli, kdy <a href=#Malcer>Malcer</a> po Yeemikovi vystřelil.
-                    </p>
-                    <p>
-                        V následné bitce byli zabiti všichni goblini kromě jednoho, kterého hrdinové krátce vyslechli. Dozvěděli se, že Gundren byl na příkaz Černého pavouka 
-                        odvlečen do Rokliského hradu, kde velí Grol. Poloha hradu není hrdinům známa, pouze tuší, že se nachází někde v Letohradském lese. Zachráněný Sildar doplnil,
-                        že gobliny kromě samotného Gundrena velmi zajímala i jakási mapa, kterou měl u sebe. Nevzdal se jí bez boje. Sildar se domnívá, že mapa dokumentuje 
-                        zkoumání Mečových hor, které Gundren se svými bratry prováděl ve snaze objevit ztracený důl v jeskyni Hromové ozvěny.
-                        Hrdinové gobliní doupě kompletně vyčistili od zbývajících goblinů i jejich náčelníka gobra Klarga.
-                    </p>
-                    <p>
-                        Poté se konečně vydali do městečka Fendelinu, kde se ubytovali v hostinci U Kameníka. Druhého dne strávili dopoledne sbíráním informací od místních, dostali 
-                        několik nabídek na plnění dobrodružné činnosti a nějaká vodítka, od koho by se mohli dozvědět polohu Rokliského hradu. Kolem poledne se v hospodě U Spícího obra 
-                        utkali se čtyřmi členy Rudocejchů, místní skupiny raubířů, která znepříjemňuje obyvatelům život. Tři zabili a zůstal jim v péči jeden Rudocejch v bezvědomí.
-                    </p>
+                <div class='goTop'>
+                    <a href=#top>↑↑</a>
+                    <h2>Příběh</h2>
+                </div>
+                <h4>Úvod</h4>
+                <p>
+                    Hrdinové se nacházeli v Letohradu, když přijali <a href=#dorucitZasoby>úkol</a> od <a href=#GundrenSkalohled>Gundrena Skálohleda</a>.
+                    Některé Gundren oslovil přímo, protože jsou staří známí, jiní se o možnosti přivýdělku dozvěděli z inzerátu.
+                    Gundren potřebuje ozbrojenou eskortu pro převoz vozu se zásobami do městečka Fendelinu v podhůří Mečových hor.
+                </p>
+                <p>
+                    Hrdinové a Gundren vyrazili hned ráno na cestu ještě ve společnosti Gundrenova přítele <a href=#SildarZimosal>Sildara Zimosála</a>.
+                    Vůz se zásobami tažený párem volů se pomalu posunoval na jih a na Gundrenovi bylo vidět rostoucí napětí.
+                    Vysvětlil hrdinům, že poblíž Fendelinu učinil ohromný objev, musí ale jednat rychle.
+                    V pozdním odpoledni už Gundren nemohl déle snášet šouravý postup vozu. Rozhodl, že hrdinové zůstanou s vozem a on vyrazí se Sildarem napřed.
+                    Dokud hrdinové s vozem nedojedou do Fendelinu, bude se věnovat záležitostem, které může řešit bez zásob ve voze.
+                    Se Sildarem pobídli své koně a brzy získali na hrdiny s vozem velký náskok a ztratili se jim z dohledu.
+                </p>
+                <p>
+                    Hrdinové pokračovali na jih takovým tempem, jakým zvládli voli naložený vůz táhnout. Vše zatím probíhalo v klidu, bez nepříjemností.
+                    Nocovali podél cesty a třetího dne dopoledne odbočili z dobře udržované, frekventované silnice na trochu horší Trojkaneckou stezku vedoucí k východu.
+                    Z obou stran kolem stezky roste les a husté houští a stezka je mnohem opuštěnější než předešlá silnice.
+                </p>
+
+                <h4>Co bylo dál?</h4>
+                <p>
+                    Kolem poledne projeli hrdinové zatáčkou a za zákrutou spatřili dvě koňské mrtvoly. Krátký průzkum odhalil, že koně patřili Gundrenovi a Sildarovi.
+                    Z houští náhle na hrdiny vyrazila tlupa goblinů. Zřejmě doufali ve snadnou kořist, hrdinové si s nimi ale rychle poradili.
+                    Navíc objevili stezku vedoucí ke goblinímu doupěti, po které okamžitě vyrazil <a href=#Rurik>Rurik</a> s velkými obavami o život svého bratrance Gundrena.
+                    Zbytek hrdinů ho následoval a všichni se úspěšně vyhli nastraženým pastem.
+                </p>
+                <p>
+                    Po hladké likvidaci stráží a hlídacích vlků u vchodu do doupěte, se hrdinové pokusili vyjednávat s Yeemikem, 
+                    zřejmě jakýmsi nadřízeným goblinů. Yeemik přiznal, že přechovává zajatého Sildara, a nabídl ho výměnou za hlavu Klarga, sídlícího v jiné části jeskyně.
+                    Vyjednávání skončilo ve chvíli, kdy <a href=#Malcer>Malcer</a> po Yeemikovi vystřelil.
+                </p>
+                <p>
+                    V následné bitce byli zabiti všichni goblini kromě jednoho, kterého hrdinové krátce vyslechli. Dozvěděli se, že Gundren byl na objednávku <a href=#CernyPavouk>Černého Pavouka</a> 
+                    odvlečen do Rokliského hradu, kde velí vůdce Rokliského klanu <a href=#Grol>Grol</a>. Poloha hradu není hrdinům známa, pouze tuší, že se nachází někde v Letohradském lese. Zachráněný Sildar doplnil,
+                    že gobliny kromě samotného Gundrena velmi zajímala i mapa, kterou měl u sebe. Nevzdal se jí bez boje. Sildar se domnívá, že mapa dokumentuje 
+                    zkoumání Mečových hor, které Gundren se svými bratry prováděl ve snaze objevit ztracený důl v jeskyni Hromové ozvěny.
+                    Hrdinové gobliní doupě kompletně vyčistili od zbývajících goblinů i jejich náčelníka gobra Klarga.
+                </p>
+                <p>
+                    Poté se konečně vydali do městečka Fendelinu, kde se ubytovali v hostinci U Kameníka. Druhého dne strávili dopoledne sbíráním informací od místních, dostali 
+                    několik nabídek na plnění dobrodružné činnosti a nějaká vodítka, od koho by se mohli dozvědět polohu Rokliského hradu. Kolem poledne se v hospodě U Spícího obra 
+                    utkali se čtyřmi členy Rudocejchů, místní skupiny raubířů, která znepříjemňuje obyvatelům život. Tři zabili a zůstal jim v péči jeden Rudocejch v bezvědomí.
+                </p>    
             </div>
+            <br>
             <br>
 
             <div id='ukoly'>
-                <h2>Úkoly</h2>
+                <div class='goTop'>
+                    <a href=#top>↑↑</a>
+                    <h2>Úkoly</h2>
+                </div>
                 <div id='dorucitZasoby'>
                     <h3>Sejdeme se ve Fendelinu</h3>
                     <p class='stavHotovo'>Dokončeno</p>
@@ -142,13 +153,21 @@
                         Hrdinové mají vůz předat <a href=#ElmarBarten>Elmaru Bartenovi</a> v jeho obchodě, který každému vyplatí odměnu 10 zl.
                         Zásilka předána.
                     </p>
+                </div> 
+                <div id='vykoupeniSildara'>
+                    <h3>Vykoupení Sildara</h3>
+                    <p class='stavOdmitnuto'>Odmítnuto</p>
+                    <p>
+                        Yeemik, vedoucí goblinů v západní části Rokliské skrýše, drží v zajetí <a href=#SildarZimosal>Sildara Zimosála</a>. Propustí ho výměnou za hlavu náčelníka celé 
+                        Rokliské skrýše Klarga, který přebývá ve východní části.             
+                    </p>
                 </div>
                 <div id='najitGundrena'>
                     <h3>Záchrana Gundrena</h3>
                     <p class='stavBezi'>Probíhá</p>
                     <p>
                         <a href=#GundrenSkalohled>Gundren Skálohled</a> do Fendelinu nedorazil. Společně se <a href=#SildarZimosal>Sildarem Zimosálem</a> byl přepaden na Trojkanecké stezce.
-                        Goblini ho na objednávku Černého pavouka odvlekli do Rokliského hradu ke Grolovi.
+                        Goblini ho na objednávku <a href=#CernyPavouk>Černého Pavouka</a> odvlekli do Rokliského hradu ke <a href=#Grol>Grolovi</a>.
                     </p>
                 </div>
                 <div id='starovyriStudna'>
@@ -202,7 +221,7 @@
                 <div class='neviditelne'> 
                     <div id='likvidaceSklivce'>
                         <h3>Prácička pro Halinu</h3>
-                        <p class='stavNabidnuto'>Nabidnuto</p>
+                        <p class='stavNabidnuto'>Nabídnuto</p>
                         <p>
                             <a href=#HalinaTrnista>Halina Trnistá</a> nabízí odměnu 100 zl, pokud hrdinové zlikvidují vůdce Rudocejchů zvaného Sklivec a přinesou jí veškerou jeho korespondenci.
                             Podle Haliny mají Rudocejši základnu pod Tresendarským panským domem.                            
@@ -210,27 +229,62 @@
                     </div>
                     <div id='najitJarna'>
                         <h3>Zmizení kouzelníka Jarna</h3>
-                        <p class='stavNabidnuto'>Nabidnuto</p>
+                        <p class='stavNabidnuto'>Nabídnuto</p>
                         <p>
                             <a href=#SildarZimosal>Sildar Zimosál</a> prosí hrdiny o pomoc s pátráním po kolegovi <a href=#JarnoAlbrek>Jarnovi Albrekovi</a>. Podle místních byl naposledy viděn, jak  prozkoumává východní okraj vesnice.                            
+                        </p>
+                    </div>
+                    <div id='mirnyDedictvi'>
+                        <h3>Mirnino dědictví</h3>
+                        <p class='stavNabidnuto'>Nabídnuto</p>
+                        <p>
+                            <a href=#MirnaDendritova>Mirna Dendritová</a> nemá nic, co by hrdinům nabídla jako odměnu za svou záchranu. Prozradila jim ale, že když před mnoha lety utíkala její rodina z Hromostromu, 
+                            zanechali ve svém bylinkářském obchůdku ukrytou truhličku se smaragdovým náhrdelníkem. Odváží-li se hrdinové do Hromostromu, mohou si náhrdelník ponechat.                            
+                        </p>
+                    </div>
+                    <div id='vyhnatDraka'>
+                        <h3>Vyhnání draka</h3>
+                        <p class='stavNabidnuto'>Nabídnuto</p>
+                        <p>
+                            <a href=#DruidCervenka>Druid Červenka</a> hrdiny požádal, aby se pokusili vyhnat draka Jedozuba z věže nad Hromostromem.                          
+                        </p>
+                    </div>
+                    <div id='spojenectviSDrakem'>
+                        <h3>Navázání spojenectví s drakem</h3>
+                        <p class='stavNabidnuto'>Nabídnuto</p>
+                        <p>
+                            <a href=#KultistaFavrik>Kultista Favrik</a> hrdinům nabídl, že mohou spojit své síly s kultisty a pokusit se navázat spojenectví s drakem Jedozubem, sídlícím ve věži nad Hromostromem.                          
+                        </p>
+                    </div>
+                    <div id='likvidaceDohlizece'>
+                        <h3>Likvidace Dohlížeče</h3>
+                        <p class='stavNabidnuto'>Nabídnuto</p>
+                        <p>
+                            <a href=#MormeskuvPrizrak>Mormeskův přízrak</a> hrdinům dovolí prohlížet si jeho knihy a odnést si něco z jeho pokladu, pokud odstraní <a href=#Dohlizec>Dohlížeče</a> z Kovárny kouzel.                          
                         </p>
                     </div>
                 </div>
             </div>
             <br>
+            <br>
 
             <div id='osoby'>
-                <h2>Ostatní postavy</h2>
+                <div class='goTop'>
+                    <a href=#top>↑↑</a>
+                    <h2>Ostatní postavy</h2>
+                </div>
                 <div id='GundrenSkalohled'>
                     <h4>Gundren Skálohled</h4>
                     <p>
                         Trpaslík středního věku. Příbuzný <a href=#Rurik>Rurika</a>. Najal hrdiny, aby dopravili vůz se zásobami do Fendelinu, sám vyrazil napřed.
+                        Společně s bratry Nundrem a Thardenem prohledávali Mečové hory ve snaze najít dlouho ztracenou jeskyni Hromové ozvěny. Podle některých klepů jeskyni objevili.
                     </p>
                 </div>
                 <div id='SildarZimosal'>
                     <h4>Sildar Zimosál</h4>
                     <p>
-                        Starší člověk, veteránský žoldnéř. Člen Panské jednoty, politické organizace sjednocující města na Severu.
+                        Starší člověk, veteránský žoldnéř. Člen Panské jednoty, politické organizace sjednocující města na Severu. Do Fendelinu přijel vyšetřit zmizení svého kolegy 
+                        <a href=#JarnoAlbrek>Jarna Albreka</a>.
                     </p>
                 </div>
                 <div id='ElmarBarten'>
@@ -257,13 +311,15 @@
                     <p>
                         Mladá obchodnice. Vede obchod Lví Štít se zbraněmi a zbrojí. Odmítá prodat zbraně těm, o kterých si myslí, že by byli pro městečko hrozbou.
                     </p>
-                </div><div id='KelynaOlsova'>
+                </div>
+                <div id='KelynaOlsova'>
                     <h4>Kelyna Olšová</h4>
                     <p>
                         Půlčice středního věku. Selka, majitelka Olšového statku. Teta <a href=#Bree>Bree</a>.
                         Má syna Kapříka.
                     </p>
-                </div><div id='SestraGaraela'>
+                </div>
+                <div id='SestraGaraela'>
                     <h4>Sestra Garaela</h4>
                     <p>
                         Elfka, kněžka kaple Tymory, bohyně štěstí a přízně osudu.
@@ -279,19 +335,41 @@
                 <div id='HerbertVesticka'>
                     <h4>Herbert Vestička</h4>
                     <p>
-                        Obtloustlý člověk neustále se nervozně pochechtává. Starosta obce, bankéř.
+                        Obtloustlý člověk nervozního vystupování. Starosta obce, bankéř.
                     </p>
-                </div><div id='JarnoAlbrek'>
+                </div>
+                <div id='JarnoAlbrek'>
                     <h4>Jarno Albrek</h4>
                     <p>
-                        Malý, mladý lidský kouzelník s tmavými vousy. Člen Panské jednoty, vyslán do Fendelinu, aby zde zavedl zákon a řád.
+                        Malý, mladý lidský kouzelník s tmavými vousy. Člen Panské jednoty, vyslán asi před dvěma měsíci do Fendelinu, aby zde zavedl zákon a řád.
+                        Nedal o sobě žádnou zprávu a <a href=#SildarZimosal>Sildar Zimosál</a> přijel vyšetřit, co se s ním stalo.
                     </p>
                 </div>
                 <div id='DruidCervenka'>
                     <h4>Druid Červenka</h4>
                     <p>
-                        Vychrtlý starý muž s bílým vousem.
-                        Člen Smaragdové enklávy, volné skupiny příznivců divočiny zaměřených na zachování přirozeného řádu věcí a přírodní rovnováhy.
+                        Vychrtlý starý muž s bílým vousem. Oblast divočiny kolem Fendelinu zná lépe než kdokoli jiný. 
+                        Člen Smaragdové enklávy, volné skupiny příznivců divočiny zaměřených na zachování přirozeného řádu věcí a přírodní rovnováhy. 
+                        Nedávno odcestoval do Hromostromu.
+                    </p>
+                </div>
+                <div id='MirnaDendritova'>
+                    <h4>Mirna Dendritová</h4>
+                    <p>
+                        Černovlasá bylinkářka. Má dceru Nilsu a syna Larse. Její manžel Tom se postavil na odpor Rudocejchům a ti ho veřejně zavraždili.
+                        Poté odvlekli celou rodinu a Tomovo tělo do lesa na východ od městečka.
+                    </p>
+                </div>
+                <div id='Grol'>
+                    <h4>Grol</h4>
+                    <p>
+                        Neznámý vůdce Rokliského klanu. Sídlí na Rokliském hradu.
+                    </p>
+                </div>
+                <div id='CernyPavouk'>
+                    <h4>Černý Pavouk</h4>
+                    <p>
+                        Neznámá postava nebo organizace, na jejíž objednávku Rokliský klan polapil <a href=#GundrenSkalohled>Gundrena</a> i s jeho mapou.
                     </p>
                 </div>
                 <div class='neviditelne'>
@@ -313,8 +391,30 @@
                             Vedoucí hornické směnárny, středního věku.
                         </p>
                     </div>
+                    <div id='KultistaFavrik'>
+                        <h4>Kultista Favrik</h4>
+                        <p>
+                            Vysoký muž, oděný do černého pláště s náznakem dračích křídel na ramenou. Nosí na obličeji koženou masku tvarovanou do podoby dračích rohů.
+                            Se spolupracovníky čeká na vhodnou příležitost k oslovení draka Jedozuba.
+                        </p>
+                    </div>
+                    <div id='MormeskuvPrizrak'>
+                        <h4>Mormeskův přízrak</h4>
+                        <p>
+                            Mormesk býval mocným kouzelníkem, který pracoval v Kovárně kouzel. Padl během bitvy o jeskyni Hromové ozvěny. Nyní v přízračné formě ovládá nemrtvé, 
+                            kteří se v jeskyni vyskytují, aby ochránil Kovárnu kouzel.
+                        </p>
+                    </div>
+                    <div id='Dohlizec'>
+                        <h4>Dohlížeč</h4>
+                        <p>
+                            Příšera, kterou kdysi přivolali kouzelníci do Kovárny kouzel, aby střežila jejich výrobky. Bitva o jeskyni Hromové ozvěny narušila křehkou magickou rovnováhu, 
+                            Dohlížeč ztratil pojem o realitě a věří, že důl je i nadále v provozu, což ho stále zavazuje k plnění jeho povinnosti.
+                        </p>
+                    </div>
                 </div>
             </div>
+            <br>
             <br>
         </main>
     </div>

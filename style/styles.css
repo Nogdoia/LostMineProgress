@@ -20,8 +20,14 @@ nav {
     margin-bottom: 0;
 }
 
-h1, h2 {
-    margin: 1.5rem 0;
+h1 {
+    margin-bottom: 0.1rem;
+}
+
+h2 {
+    margin: 0rem 0;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 h3 {
@@ -29,6 +35,10 @@ h3 {
     margin-left: 0;
     margin-bottom: 0;
     text-decoration: underline;
+}
+
+p {
+    max-width: 45rem;
 }
 
 #ukoly p {
@@ -45,7 +55,11 @@ h3 {
 }
 
 h5 {
-    margin: 0.1rem 2rem;
+    margin: 0.3rem 2rem;
+}
+
+h6 {
+    margin: 0;
 }
 
 #hrdinove p {
@@ -84,6 +98,12 @@ nav h4 {
     color: hsl(300, 60%, 65%);
 }
 
+.stavOdmitnuto {
+    margin: 0.1rem 2rem;
+    font-size: 0.8rem;
+    color: hsl(350, 80%, 45%);
+}
+
 #kouzla ul {
     margin-top: 0.3rem;
     margin-bottom: 0.3rem;
@@ -98,6 +118,24 @@ li {
     margin: 0.2rem 2rem;
 }
 
+.goTop a {
+    display: inline-block;
+    padding-bottom: 0.35rem;
+    vertical-align: middle;
+    font-size: 1.6rem;
+}
+
 .neviditelne {
     display: none;
+}
+
+@media only screen and (max-width: 640px) {
+    body {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    p {
+        max-width: 85%;
+    }
 }
