@@ -129,6 +129,7 @@ li {
     display: none;
 }
 
+
 @media only screen and (max-width: 640px) {
     body {
         width: 90%;
